@@ -1,0 +1,30 @@
+{
+  "slug": "turbowarp-webrtc-qrcode-pairing-app",
+  "title": "TurboWarp WebRTC QRCode Pairing App",
+  "summary": "QRコードでWebRTCのOffer／Answerを搬送し、2台の端末のペアリングを検証するアプリです。",
+  "modes": [
+    {
+      "id": "host",
+      "label": "統合側",
+      "description": "Offerの分割QRを表示し、持ち込まれたAnswerのQRをカメラで読み取る。"
+    },
+    {
+      "id": "client",
+      "label": "カメラ側",
+      "description": "OfferのQRをカメラで読み取り、Answerの分割QRを画面に表示する。"
+    }
+  ],
+  "plannedFeatures": [
+    "webrtc-qrcode-pairing拡張の往復ペアリングを、統合側とカメラ側の両方の操作で通す。",
+    "分割QRの表示とpart送り、受信の進捗（取得済み・必要数・未取得part）を表示する。",
+    "スマートフォンで撮影したAnswer画像からの読取りを確認する。専用アプリやネットワークを要求しない。",
+    "QR読取りの完了とWebRTC接続の成立を別の状態として表示する。",
+    "取消・再試行・タイムアウトを操作でき、古いQRが新しいペアリングへ誤適用されないことを確認する。"
+  ],
+  "plannedDependencies": [
+    "webrtc-qrcode-pairing：QR搬送形式、分割表示、再構成、ペアリングの進行と状態。",
+    "webrtc：Offer／Answerの生成・受理、ICE、接続状態。",
+    "jsqr：カメラフレームからのQRデコード。",
+    "camera-source：カメラの取得・選択とフレームへのアクセス。"
+  ]
+}
