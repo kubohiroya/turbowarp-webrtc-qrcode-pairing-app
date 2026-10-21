@@ -34,7 +34,7 @@ The distribution page does not embed the TurboWarp player; it offers the startup
 - jsqr: QR decoding from camera frames.
 - camera-source: camera acquisition and selection, and frame access.
 
-The only actual dependency is turbowarp-app-shell 0.2.0 in package.json. The use-case-specific connections above are planned, and do not rely on any unreleased early extension. When one is added, its exact version, artifact hash, API manifest, and evaluation order will be pinned.
+The only actual dependency is turbowarp-app-shell 0.3.0 in package.json. The use-case-specific connections above are planned, and do not rely on any unreleased early extension. When one is added, its exact version, artifact hash, API manifest, and evaluation order will be pinned.
 
 ## Layout and development
 
