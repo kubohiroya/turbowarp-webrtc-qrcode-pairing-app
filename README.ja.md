@@ -1,6 +1,6 @@
 # TurboWarp WebRTC QRCode Pairing App
 
-[English](README.md) | **日本語**
+[English](README.md) | 日本語
 
 QRコードでWebRTCのOffer／Answerを搬送し、2台の端末のペアリングを検証するアプリです。
 
