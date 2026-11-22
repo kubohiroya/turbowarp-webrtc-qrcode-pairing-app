@@ -24,7 +24,7 @@
   "plannedDependencies": [
     "webrtc-qrcode-pairing：QR搬送形式、分割表示、再構成、ペアリングの進行と状態。",
     "webrtc：Offer／Answerの生成・受理、ICE、接続状態。",
-    "jsqr：カメラフレームからのQRデコード。",
+    "zxing：カメラフレームからのQRデコード。",
     "camera-source：カメラの取得・選択とフレームへのアクセス。"
   ]
 }

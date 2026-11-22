@@ -31,7 +31,7 @@ The distribution page does not embed the TurboWarp player; it offers the startup
 
 - webrtc-qrcode-pairing: the QR carrier format, split display, reassembly, and pairing progress and state.
 - webrtc: offer/answer creation and acceptance, ICE, and connection state.
-- jsqr: QR decoding from camera frames.
+- zxing: QR decoding from camera frames.
 - camera-source: camera acquisition and selection, and frame access.
 
 The only actual dependency is turbowarp-app-shell 0.3.0 in package.json. The use-case-specific connections above are planned, and do not rely on any unreleased early extension. When one is added, its exact version, artifact hash, API manifest, and evaluation order will be pinned.
